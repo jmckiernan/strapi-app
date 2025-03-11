@@ -9,4 +9,10 @@ export default [
   'strapi::session',
   'strapi::favicon',
   'strapi::public',
+  {
+    name: 'strapi::content-type-builder',
+    config: {
+      enabled: true,
+    },
+  },
 ];
